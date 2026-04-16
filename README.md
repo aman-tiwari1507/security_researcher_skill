@@ -69,7 +69,6 @@ Claude Code watches these directories and picks up the skill within the current 
 - **ZIP structure** — unzipping should give you a `security-researcher/` folder containing `SKILL.md`, not a loose `SKILL.md`
 - **Name field** — the `name:` in `SKILL.md` frontmatter must be lowercase with hyphens only (`security-researcher` ✓, `Security Researcher` ✗)
 - **Toggle** — confirm the skill is toggled **on** in your Skills list
-- **Prompt specificity** — skills trigger on keyword match; a vague *"help me"* won't activate it, but *"review this code for SQL injection"* will
 ---
 
 ## 🚀 Usage
