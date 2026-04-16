@@ -62,7 +62,7 @@ mkdir -p .claude/skills
 cp -r security-researcher .claude/skills/
 ```
  
-Claude Code watches these directories and picks up the skill within the current session — no restart needed. Invoke it by typing `/security-researcher` or just describe a security task and let it trigger automatically.
+Claude Code watches these directories and picks up the skill within the current session — no restart needed. Invoke it by typing `/security-researcher`.
  
 ### ✅ Quick checks if the skill isn't triggering
  
