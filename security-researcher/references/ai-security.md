@@ -43,7 +43,7 @@ The user directly attempts to override the system prompt or change model behavio
 *Defenses:*
 - Input validation: reject or flag known injection patterns (though this is a cat-and-mouse game)
 - Output filtering: detect if the model is about to reveal system prompt content
-- Model-level hardening: instruction hierarchy (Anthropic's Claude is designed with user/operator/system prompt trust hierarchy)
+- Model-level hardening: instruction hierarchy (Claude is designed with user/operator/system prompt trust hierarchy)
 - Principle of least capability: if the model doesn't need to reveal its system prompt, don't tell it to keep it secret — just don't give it information it doesn't need
 
 ### Indirect Prompt Injection
