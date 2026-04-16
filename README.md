@@ -41,6 +41,7 @@ git clone https://github.com/aman-tiwari1507/security_researcher_skill.git
 - Open Claude.ai → **Settings** → **Customize** → **Skills**
 - Click the **`+`** button → **Create skill** → **Upload ZIP**
 - Select your `security-researcher.zip`
+  
 **4. Toggle it on.** The skill appears in your Skills list. Flip the toggle and you're live.
  
 **5. Test it.** Start a new chat and ask something security-flavoured — *"Review this login flow for auth issues"* or *"Build me a risk register for a fintech startup"*. The skill triggers automatically based on your prompt.
