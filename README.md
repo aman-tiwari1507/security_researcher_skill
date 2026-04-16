@@ -101,7 +101,7 @@ Claude Code watches these directories and picks up the skill within the current 
 
 The skill reads your phrasing and shifts tone automatically:
 
-| You say… | You get… |
+| You say | You get |
 |---|---|
 | *"explain to my team"* | Clear, structured, professional |
 | *"help me understand"* | Warm, first-principles teaching |
