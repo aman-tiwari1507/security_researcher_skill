@@ -6,7 +6,7 @@
 
 ## ✨ What It Does
 
-Turns Claude into a **senior security researcher** that reasons like both attacker and defender, then writes findings in clear human prose.
+Turns Claude into a **senior security researcher** that reasons like both attacker and defender.
 
 Covers eight domains:
 
