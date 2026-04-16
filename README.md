@@ -95,3 +95,11 @@ Please don't use it to:
 ❌ Help attack systems you don't have authorization to test <br>
 ❌ Hand over ready-to-paste payloads divorced from defensive context <br>
 
+## 📜 License & Disclaimer
+
+Released under the [MIT License](LICENSE).
+
+This skill provides defensive security education. Users are responsible for
+ensuring authorization before testing any systems. The maintainers accept no
+liability for misuse.
+
