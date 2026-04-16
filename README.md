@@ -32,7 +32,7 @@ You can install this skill on **Claude.ai** (web/desktop app) or in **Claude Cod
 **1. Download the skill folder.** Clone or download this repo as a ZIP from GitHub:
  
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+[git clone https://github.com/<your-username>/<repo-name>.git](https://github.com/aman-tiwari1507/security_researcher_skill.git)
 ```
  
 **2. Package it as a ZIP.** Zip the **`security-researcher/` folder itself** — not just its contents. When unzipped, you should see `security-researcher/SKILL.md`, not a loose `SKILL.md` at the root. This is the most common mistake.
