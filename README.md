@@ -23,6 +23,54 @@ Covers eight domains:
 
 ---
 
+## 📦 Installing This Skill in Claude
+ 
+You can install this skill on **Claude.ai** (web/desktop app) or in **Claude Code** (CLI). Both take about a minute.
+ 
+### 🌐 Option A — Claude.ai (web or desktop)
+ 
+**1. Download the skill folder.** Clone or download this repo as a ZIP from GitHub:
+ 
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+```
+ 
+**2. Package it as a ZIP.** Zip the **`security-researcher/` folder itself** — not just its contents. When unzipped, you should see `security-researcher/SKILL.md`, not a loose `SKILL.md` at the root. This is the most common mistake.
+ 
+**3. Upload to Claude.**
+- Open Claude.ai → **Settings** → **Customize** → **Skills**
+- Click the **`+`** button → **Create skill** → **Upload ZIP**
+- Select your `security-researcher.zip`
+**4. Toggle it on.** The skill appears in your Skills list. Flip the toggle and you're live.
+ 
+**5. Test it.** Start a new chat and ask something security-flavoured — *"Review this login flow for auth issues"* or *"Build me a risk register for a fintech startup"*. The skill triggers automatically based on your prompt.
+ 
+> **Note:** Skills require the feature to be enabled on your account. On Team / Enterprise plans, an admin may need to enable it at the org level first. Uploaded skills are private to your account unless you explicitly share them.
+ 
+### 💻 Option B — Claude Code (CLI)
+ 
+Drop the skill folder into your personal skills directory:
+ 
+```bash
+# Personal (available in every project)
+mkdir -p ~/.claude/skills
+cp -r security-researcher ~/.claude/skills/
+ 
+# Or project-scoped (checked into the repo for your team)
+mkdir -p .claude/skills
+cp -r security-researcher .claude/skills/
+```
+ 
+Claude Code watches these directories and picks up the skill within the current session — no restart needed. Invoke it by typing `/security-researcher` or just describe a security task and let it trigger automatically.
+ 
+### ✅ Quick checks if the skill isn't triggering
+ 
+- **ZIP structure** — unzipping should give you a `security-researcher/` folder containing `SKILL.md`, not a loose `SKILL.md`
+- **Name field** — the `name:` in `SKILL.md` frontmatter must be lowercase with hyphens only (`security-researcher` ✓, `Security Researcher` ✗)
+- **Toggle** — confirm the skill is toggled **on** in your Skills list
+- **Prompt specificity** — skills trigger on keyword match; a vague *"help me"* won't activate it, but *"review this code for SQL injection"* will
+---
+
 ## 🚀 Usage
 
 **Just ask.** The skill triggers automatically when your prompt matches a security domain.
