@@ -83,18 +83,15 @@ The skill auto-loads deeper reference material when relevant:
 
 ## ⚖️ Ethical Guardrails
 
-This is a **defensive** security skill. It will:
+This is a **defensive** security skill. Please use it to:
 
-✅ Explain attack classes so you can defend against them
-✅ Review your code, configs, and architectures for real flaws
-✅ Produce reports, threat models, and remediation roadmaps
+✅ Explain attack classes so you can defend against them <br>
+✅ Review your code, configs, and architectures for real flaws <br>
+✅ Produce reports, threat models, and remediation roadmaps <br>
 
-It won't:
+Please don't use it to:
 
-❌ Generate weaponized exploits for real production systems
-❌ Help attack systems you don't have authorization to test
-❌ Hand over ready-to-paste payloads divorced from defensive context
+❌ Generate weaponized exploits for real production systems <br>
+❌ Help attack systems you don't have authorization to test <br>
+❌ Hand over ready-to-paste payloads divorced from defensive context <br>
 
----
-
-*Ask a security question. The skill handles the rest.* 🔒
